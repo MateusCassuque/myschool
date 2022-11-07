@@ -1,0 +1,45 @@
+#image-container{
+    border: 5px solid rgba(58, 57, 57, 0.822);
+    max-height: max-content;
+    max-width: max-content;
+    margin: 30px auto;
+    border-radius: 50%;
+}
+#image-container img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: 0;
+    padding:0;
+}
+#capa-container{
+    border: .2px solid rgba(82, 82, 82, 0.151);
+    box-shadow: 2px 1px 2px rgb(8, 8, 8);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .6s;
+}
+
+#status{
+    margin: 10px auto 0 auto;
+    max-width: max-content;
+}
+#escola-container{
+    margin-top: 5px;
+    border-top: 1px solid rgba(65, 63, 63, 0.932);
+}
+.card{
+    margin-top: 10px;
+    border: none;
+    background-color: rgba(169, 169, 169, 0);
+    margin-bottom: 10px;
+}
+.card img{
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.253);
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.card-body{
+    background-color: white;
+}

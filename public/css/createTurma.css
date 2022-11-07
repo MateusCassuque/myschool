@@ -1,0 +1,42 @@
+#turma-create-container{
+    margin-top: 20px;
+}
+
+#turma-create-container label{
+    font-weight: bold;
+    font-size: 18px;
+}
+#turma-create-container input,
+#turma-create-container select,
+#turma-create-container textarea{
+    font-size: 14px;
+}
+#turma-create-container form{
+    margin: 0 auto;
+    width: 50%;
+    border: 1px solid rgba(70, 70, 70, 0.185);
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px black;
+    padding: 10px;
+}
+#turma-create-container h1{
+    text-align: center;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 5px rgb(202, 198, 198);
+
+}
+#btn-adicionar-turma{
+    margin-left: 25%;
+    box-shadow: 1px 1px 5px black;
+}
+
+#turma-create-container .btn-dark:hover{
+    color: #000;
+    background-color: #FFF;
+    border: 2px solid #FFF;
+    font-weight: 400;
+    letter-spacing: 1px;
+    transition: all 1s;
+
+
+}

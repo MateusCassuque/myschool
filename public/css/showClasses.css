@@ -1,0 +1,24 @@
+#info-container .escola-comparticipada{
+    color: #004085;
+    font-size: large;
+  }
+  #info-container .escola-privada{
+    color: #00855d;
+    font-size: large;
+  }
+  #info-container .escola-puclica{
+    color: #853500;
+    font-size: large;
+  }
+  #info-container{
+    margin: 30px auto;
+}
+#info-container p{
+    margin: 0px;
+    font-size: 14px;
+    display: flex;
+}
+#selecao select{
+    max-width: max-content;
+    color: #00855d;
+}

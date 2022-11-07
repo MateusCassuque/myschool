@@ -1,0 +1,13 @@
+#logar .separador{
+    margin-bottom: 2500px;
+    padding-top: 10px;
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+}
+
+#logar #corpo{
+      position: relative;
+      overflow: hidden;
+      max-height: 550px;
+}

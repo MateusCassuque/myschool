@@ -1,0 +1,56 @@
+#nav-perfil ul li{
+    margin: 10px;
+    font-size: large;
+}
+
+#nav-perfil ul li a:hover{
+    text-decoration: underline;
+}
+#logo-brand #navbar-brand{
+    color: rgb(185, 179, 179);
+    font-size: large;
+    margin: 10px auto 2px 10px;
+}
+
+#nav-perfil1 ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.178);
+    color: #FFD;
+}
+
+#list2{
+    width: 100%;
+}
+#nav-perfil1 ul li a{
+    padding-left:  70px;
+    margin: 0;
+}
+#nav-perfil1 ul{
+    border-top: 1px solid gray;
+    margin-top: 20px;
+}
+
+#nav-container{
+    color: rgb(189, 192, 194);
+    box-shadow: 1px 1px 1px rgba(56, 56, 56, 0.795);
+    min-height: 500px;
+    margin-left: 12px;
+    margin-top: -2px;
+}
+
+#nav-container h1{
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+#nav-container #barra{
+    border-bottom: 1px solid rgba(240, 240, 240, 0.459);
+    width: 100%;
+    margin: 0;
+
+}
+#nav-container ul{
+    margin-left: 10%;
+}
+#nav-container li a{
+    color: rgb(189, 192, 194);
+}

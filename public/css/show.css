@@ -1,0 +1,126 @@
+/*Show page*/
+#title-container .escola-comparticipada{
+  color: #004085;
+}
+#title-container .escola-privada{
+  color: #00855d;
+}
+#title-container .escola-puclica{
+  color: #853500;
+}
+
+
+#title-container .local{
+    color: #004085;
+    background-color: #CCE5FF;
+    border: 1px solid #88DAFF;
+    padding: 5px;
+    min-width: min-content;
+    text-align: center;
+
+}
+.alread-joined-msg{
+    margin: 15px 0;
+    color: #004085;
+    background-color: #CCE5FF;
+    border: 1px solid #88DAFF;
+    padding: 5px;
+    min-width: min-content;
+    max-width: max-content;
+    text-align: center;
+}
+  #image-container,
+  #info-container{
+      margin-top: 30px;
+  }
+
+  #image-container img{
+      border-radius: 5%;
+  }
+
+  #info-container h1{
+      font-size: 36px;
+      font-weight: 900;
+  }
+
+  #info-container p{
+      margin: 0px;
+      font-size: 14px;
+      display: flex;
+  }
+
+  #info-container h3,
+  #classes-container h3,
+  #description-container h3{
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 10px;
+  }
+
+  #info-container ion-icon{
+      font-size: 20px;
+      color: #f2a340;
+      margin-right: 5px;
+  }
+
+  #info-container .icone-btn{
+    color: white;
+}
+
+  #info-container #escola-submit{
+    margin: 20px 0;
+  }
+
+  .items-list{
+    list-style: none;
+    padding-left: 0;
+  }
+  #nav-extracurricular li p{
+    background-color: #D4EDDA;
+    color: #155724;
+    border: 1px solid #C3E6CB;
+    width: 100%;
+    padding: 5px;
+    text-indent: 5px;
+  }
+  #subtitulo-principal{
+      color: rgb(43, 41, 41);
+      border-bottom: 1px solid gray;
+  }
+
+  #nav-tabContent #nav-ciclos{
+      justify-content: space-between;
+  }
+
+  #corpo .scrollSpy-mychool{
+      margin-top: 30px;
+      position: relative;
+      overflow: hidden;
+      height: 360px;
+  }
+  #corpo .conteudo{
+      margin-bottom: 2500px;
+      position: relative;
+      overflow: auto;
+      height: 350px;
+
+  }
+/*Legenda carousel*/
+  #slide-principal .carousel-caption{
+      background-color: rgba(255, 255, 255, 0.068);
+      color: rgb(0, 0, 0);
+      padding: 50px;
+      max-height: max-content;
+      margin: 0 auto;
+}
+#slide-principal .carousel-caption:hover{
+    background-color: rgba(0, 0, 0, 0.404);
+    color: rgb(255, 255, 255);
+}
+#slide-principal .carousel-item{
+    height: 200px;
+    border: .2px solid rgba(82, 82, 82, 0.062);
+    box-shadow: 2px 2px 2px rgb(8, 8, 8);
+    background-repeat: no-repeat;
+    background-position: center;
+}

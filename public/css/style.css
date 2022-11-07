@@ -1,0 +1,177 @@
+
+.navbar-nav{
+  justify-content: space-between;
+}
+  .msg{
+      background-color: #D4EDDA;
+      color: #155724;
+      border: 1px solid #C3E6CB;
+      width: 100%;
+      margin-bottom: 0px;
+      text-align: center;
+      padding: 10px;
+  }
+
+  #slide-principal .carousel-caption{
+      background-color: rgba(255, 255, 255, 0.123);
+      color: rgb(0, 0, 0);
+      padding: 5px;
+      max-height: max-content;
+      margin: 0 auto;
+      transition: 1.5s;
+  }
+  #slide-principal .carousel-caption:hover{
+    background-color: rgba(0, 0, 0, 0.404);
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    transition: .6s;
+}
+
+  /*Show page info*/
+  #info-container .alread-joined-msg{
+      margin: 15px 0;
+      color: #004085;
+      background-color: #CCE5FF;
+      border: 1px solid #88DAFF;
+      padding: 10px;
+      width: 315px;
+  }
+
+
+  /*Home Page*/
+
+  .items-list{
+    list-style: none;
+    padding-left: 0;
+  }
+  * body .navbar #navbar li a {
+    font-size: 16px;
+    color: #ec2121;
+  }
+  * body #events-container {
+    padding: 50px;
+  }
+  * body #events-container h2 {
+    margin-bottom: 10px;
+  }
+  * body #events-container .subtitulo {
+    color: #757575;
+    margin-bottom: 30px;
+  }
+  /*#cards-container {
+    display: flex;
+  }
+  #card-list .card,
+  .card {
+    flex: 1 1 24%;
+    max-width: 250px;
+    border-radius: 20px;
+    padding: 0;
+  }
+  .items-list .card img,
+  #nav-home .card img{
+    max-height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .items-list .card-date,
+  #nav-home .card-date{
+
+    background-color: #d8d8d834;
+    color: #6a6e6c;
+    border: 1px solid #b2b3b21c;
+    width: 100%;
+    padding: 5px;
+    text-indent: 5px;
+  }
+  #card-list .card-title,
+  *  #nav-home .card-title{
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  * body #events-container #cards-container .card-participantes {
+    font-size: 14px;
+    color: #757575;
+  }*/
+
+.card{
+    border-radius: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: rgba(169, 169, 169, 0);
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.158);
+}
+.card img{
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.336);
+    margin-top: 10px;
+    margin-bottom: 15px;
+    max-height: 150px;
+}
+.card-body{
+    background-color: rgba(218, 216, 216, 0.089);
+}
+  * .row,
+  .container-fluid{
+    margin: 0;
+  }
+
+  *  .btn-dark:hover {
+    background-color: #fdfdfd;
+    border: 2px solid #eeeded;
+    color: #020202;
+  }
+
+  /*Escola create page*/
+
+  #event-create-container{
+      margin-top: 20px;
+  }
+  #event-create-container label{
+      font-weight: bold;
+  }
+  #event-create-container input,
+  #event-create-container select,
+  #event-create-container textarea{
+      font-size: 1rem;
+      margin: 0 0 1rem .5rem;
+  }
+  #event-create-container .opsao{
+      margin: 0 auto;
+      width: 70%;
+  }
+  #event-create-container #botao{
+      margin: 0 auto;
+
+  }
+  #event-create-container #private{
+
+    min-width: max-content;
+    max-width: max-content;
+  }
+  #event-create-container form{
+      margin: 0 auto;
+      width: 100%;
+  }
+  #event-create-container h1{
+      text-align: center;
+      margin-bottom: 15px;
+  }
+
+  #coural-container .carousel-item{
+      height: 300px;
+      border: .2px solid rgba(82, 82, 82, 0.062);
+      box-shadow: 2px 2px 2px rgb(8, 8, 8);
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+
+  /*Edit Page*/
+  .img-preview{
+      width: 100px;
+      margin-top: 20px;
+  }
+
+
+  /*# sourceMappingURL=style.css.map */
